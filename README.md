@@ -1,7 +1,7 @@
 # Programming for life sciences
 Repository made to create a website in an academic context that will answer a biological question
 ## Biological question: 
-<u>What is the global geographic and taxonomic distribution of *Panthera* species, and how do their native country counts compare across continents?</u>
+<u> What is the global geographic and taxonomic distribution of *Panthera* species, and how do their native country counts compare across continents? </u>
 So in order to answer this question, I need two types of data, first the geographical distribution of each of the species and second their numbers in each country, or each general area. 
 Tried a first SPRQL query to get the county distribution, but it only came up with 27 countries and often only one species per country. Upon looking at the Wikidata entries for the 6 species I realised that some had taxon range maps, showing the geographical spread but didn't have the taxon range listed, which was why it wasn't coming up in my SPRQL query.
 My next step was to try and add the missing statements in each entry, however given that these are highly searched entries they are partially protected from editing, which means that I have to wait until I have over 50 other edits and that my account is 4 days old. I spent the 2nd session making a number of those needed 50 edits on subspecies of the initial species until I could edit the bigger entry, and it worked because when I rerun my initial query I got 50 countries and multiple species in each, still not a complete dataset but closer. I hope that the half protected status of the entries will change so that I am able to get the necessary data for the question.
