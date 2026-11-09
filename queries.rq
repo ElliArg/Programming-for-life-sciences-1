@@ -1,1 +1,7 @@
+SELECT DISTINCT ?country ?countryLabel ?species ?speciesLabel WHERE {
+  ?species wdt:P171* wd:Q127960. # Panthera genus
+  ?species wdt:P9714 ?country.   # Taxon range / distribution country
+  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
 
