@@ -1,3 +1,2 @@
-# Programming for life sciences
-Brouillon
-This repository will be a first draft of a website in the purpose of an introductory educational course, Programming for the Life Sciences.
+## Programming for life sciences
+Repository made to create a website in an academic context that will answer a biological question
